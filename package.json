@@ -2,11 +2,15 @@
     "name": "chinese-new-year-card",
     "version": "1.0.0",
     "description": "",
+    "main": "happy new year.html",
     "scripts": {
-      "build": "echo 'No build step needed'",
-      "start": "serve"
+        "start": "npx serve",
+        "build": "echo 'No build step required'"
     },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
     "devDependencies": {
-      "serve": "^14.0.0"
+        "serve": "^14.2.4"
     }
-  }
+}
